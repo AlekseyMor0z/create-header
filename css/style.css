@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+    font-size: 24px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: #dec2ef;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: tomato;
+    padding: 20px 80px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
